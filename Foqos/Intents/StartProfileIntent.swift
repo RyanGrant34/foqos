@@ -14,10 +14,10 @@ struct StartProfileIntent: AppIntent {
 
   @Parameter(title: "Duration minutes (Optional)") var durationInMinutes: Int?
 
-  static var title: LocalizedStringResource = "Start Foqos Profile"
+  static var title: LocalizedStringResource = "Start Lockt Profile"
 
   static var description = IntentDescription(
-    "Start a Foqos blocking profile. Optionally specify a timer duration in minutes (15-1440)."
+    "Start a Lockt blocking profile. Optionally specify a timer duration in minutes (15-1440)."
   )
 
   @MainActor

@@ -21,7 +21,7 @@ struct ProfileControlProvider: AppIntentTimelineProvider {
       profileName: "Focus Session",
       activeSession: nil,
       profileSnapshot: nil,
-      deepLinkURL: URL(string: "https://foqos.app/profile/placeholder"),
+      deepLinkURL: URL(string: "https://lockt.app/profile/placeholder"),
       focusMessage: "Stay focused and avoid distractions",
       useProfileURL: false
     )
@@ -99,9 +99,9 @@ struct ProfileControlProvider: AppIntentTimelineProvider {
     var deepLinkURL: URL?
     if let profileId = targetProfileId {
       if let useProfileURL = configuration.useProfileURL, useProfileURL == true {
-        deepLinkURL = URL(string: "https://foqos.app/profile/\(profileId)")
+        deepLinkURL = URL(string: "https://lockt.app/profile/\(profileId)")
       } else {
-        deepLinkURL = URL(string: "https://foqos.app/navigate/\(profileId)")
+        deepLinkURL = URL(string: "https://lockt.app/navigate/\(profileId)")
       }
     } else {
       deepLinkURL = URL(string: "foqos://")

@@ -627,7 +627,7 @@
 				DEVELOPMENT_TEAM = YR54789JNV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoqosDeviceMonitor/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = FoqosDeviceMonitor;
+				INFOPLIST_KEY_CFBundleDisplayName = LocktDeviceMonitor;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -636,7 +636,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.11;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqos.FoqosDeviceMonitor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.lockt.LocktDeviceMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -660,7 +660,7 @@
 				DEVELOPMENT_TEAM = YR54789JNV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoqosDeviceMonitor/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = FoqosDeviceMonitor;
+				INFOPLIST_KEY_CFBundleDisplayName = LocktDeviceMonitor;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -669,7 +669,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.11;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqos.FoqosDeviceMonitor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.lockt.LocktDeviceMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -818,7 +818,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = foqos/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Foqos;
+				INFOPLIST_KEY_CFBundleDisplayName = Lockt;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses NFC to scan tags for item identification.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to scan QR codes to active/deactivate profiles";
@@ -837,7 +837,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.lockt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -866,7 +866,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = foqos/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Foqos;
+				INFOPLIST_KEY_CFBundleDisplayName = Lockt;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses NFC to scan tags for item identification.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to scan QR codes to active/deactivate profiles";
@@ -885,7 +885,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.lockt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -909,7 +909,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.locktTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -933,7 +933,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.locktTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -956,7 +956,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.locktUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -979,7 +979,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.locktUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -1000,7 +1000,7 @@
 				DEVELOPMENT_TEAM = YR54789JNV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoqosShieldConfig/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = FoqosShieldConfig;
+				INFOPLIST_KEY_CFBundleDisplayName = LocktShieldConfig;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1009,7 +1009,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqos.FoqosShieldConfig;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.lockt.LocktShieldConfig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1028,7 +1028,7 @@
 				DEVELOPMENT_TEAM = YR54789JNV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoqosShieldConfig/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = FoqosShieldConfig;
+				INFOPLIST_KEY_CFBundleDisplayName = LocktShieldConfig;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1037,7 +1037,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqos.FoqosShieldConfig;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.lockt.LocktShieldConfig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1059,7 +1059,7 @@
 				DEVELOPMENT_TEAM = YR54789JNV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoqosWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = FoqosWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = LocktWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1068,7 +1068,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqos.FoqosWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.lockt.LocktWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1089,7 +1089,7 @@
 				DEVELOPMENT_TEAM = YR54789JNV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoqosWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = FoqosWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = LocktWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1098,7 +1098,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.ambitionsoftware.foqos.FoqosWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryangrant.lockt.LocktWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

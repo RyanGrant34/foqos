@@ -4,7 +4,7 @@
 <dict>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
-		<string>com.foqos.backgroundprocessing</string>
+		<string>com.ryangrant.lockt.backgroundprocessing</string>
 	</array>
 	<key>CFBundleIconName</key>
 	<string>AppIcon</string>

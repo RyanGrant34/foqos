@@ -25,7 +25,7 @@ class ThemeManager: ObservableObject {
   private static let defaultColorName = "Grimace Purple"
 
   @AppStorage(
-    "foqosThemeColorName", store: UserDefaults(suiteName: "group.dev.ambitionsoftware.foqos"))
+    "locktThemeColorName", store: UserDefaults(suiteName: "group.com.ryangrant.lockt"))
   private var themeColorName: String = defaultColorName
 
   var selectedColorName: String {

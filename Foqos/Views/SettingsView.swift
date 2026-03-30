@@ -124,7 +124,7 @@ struct SettingsView: View {
         }
 
         Section("Help") {
-          Link(destination: URL(string: "https://www.foqos.app/blocking-native-apps.html")!) {
+          Link(destination: URL(string: "https://www.lockt.app/blocking-native-apps.html")!) {
             HStack {
               Text("Blocking Native Apps")
                 .foregroundColor(.primary)

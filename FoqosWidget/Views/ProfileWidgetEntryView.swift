@@ -38,7 +38,7 @@ struct ProfileWidgetEntryView: View {
   private var linkToOpen: URL {
     // Don't open the app via profile to stop the session
     if entry.isBreakActive || entry.isSessionActive {
-      return URL(string: "https://foqos.app")!
+      return URL(string: "https://lockt.app")!
     }
 
     return entry.deepLinkURL ?? URL(string: "foqos://")!
@@ -229,7 +229,7 @@ struct ProfileWidgetEntryView: View {
       schedule: nil,
       disableBackgroundStops: nil
     ),
-    deepLinkURL: URL(string: "https://foqos.app/profile/test-id"),
+    deepLinkURL: URL(string: "https://lockt.app/profile/test-id"),
     focusMessage: "Stay focused and avoid distractions",
     useProfileURL: true
   )
@@ -272,7 +272,7 @@ struct ProfileWidgetEntryView: View {
       schedule: nil,
       disableBackgroundStops: nil
     ),
-    deepLinkURL: URL(string: "https://foqos.app/profile/\(activeProfileId.uuidString)"),
+    deepLinkURL: URL(string: "https://lockt.app/profile/\(activeProfileId.uuidString)"),
     focusMessage: "Deep focus time",
     useProfileURL: true
   )
@@ -315,7 +315,7 @@ struct ProfileWidgetEntryView: View {
       schedule: nil,
       disableBackgroundStops: nil
     ),
-    deepLinkURL: URL(string: "https://foqos.app/profile/\(breakProfileId.uuidString)"),
+    deepLinkURL: URL(string: "https://lockt.app/profile/\(breakProfileId.uuidString)"),
     focusMessage: "Take a well-deserved break",
     useProfileURL: true
   )
@@ -360,7 +360,7 @@ struct ProfileWidgetEntryView: View {
       schedule: nil,
       disableBackgroundStops: nil
     ),
-    deepLinkURL: URL(string: "https://foqos.app/profile/\(pauseProfileId.uuidString)"),
+    deepLinkURL: URL(string: "https://lockt.app/profile/\(pauseProfileId.uuidString)"),
     focusMessage: "Session is paused",
     useProfileURL: true
   )
@@ -416,7 +416,7 @@ struct ProfileWidgetEntryView: View {
       schedule: nil,
       disableBackgroundStops: nil
     ),
-    deepLinkURL: URL(string: "https://foqos.app/profile/\(unavailableProfileId.uuidString)"),
+    deepLinkURL: URL(string: "https://lockt.app/profile/\(unavailableProfileId.uuidString)"),
     focusMessage: "Different profile is currently active",
     useProfileURL: true
   )

@@ -1,7 +1,7 @@
 import DeviceActivity
 import OSLog
 
-private let log = Logger(subsystem: "com.foqos.monitor", category: BreakTimerActivity.id)
+private let log = Logger(subsystem: "com.ryangrant.lockt.monitor", category: BreakTimerActivity.id)
 
 class BreakTimerActivity: TimerActivity {
   static var id: String = "BreakScheduleActivity"
