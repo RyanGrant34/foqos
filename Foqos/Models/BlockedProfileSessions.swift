@@ -18,6 +18,7 @@ class BlockedProfileSession {
   var pauseEndTime: Date?
 
   var forceStarted: Bool = false
+  var intent: String? = nil
 
   var isActive: Bool {
     return endTime == nil

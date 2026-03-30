@@ -27,6 +27,9 @@ class StrategyManager: ObservableObject {
 
   @Published var errorMessage: String?
 
+  // Intent set by the user before starting a session
+  var pendingSessionIntent: String? = nil
+
   @AppStorage("emergencyUnblocksRemaining") private var emergencyUnblocksRemaining: Int = 3
   @AppStorage("emergencyUnblocksResetPeriodInWeeks") private
     var emergencyUnblocksResetPeriodInWeeks: Int = 4
@@ -521,6 +524,12 @@ class StrategyManager: ObservableObject {
 
   private func handleSessionStarted(session: BlockedProfileSession) {
     self.dismissView()
+
+    // Attach any pending intent to the session
+    if let intent = pendingSessionIntent {
+      session.intent = intent
+      pendingSessionIntent = nil
+    }
 
     // Remove any timers and notifications that were scheduled
     self.timersUtil.cancelAll()

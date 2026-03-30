@@ -5,24 +5,19 @@ class ThemeManager: ObservableObject {
 
   // Single source of truth for all theme colors
   static let availableColors: [(name: String, color: Color)] = [
-    ("Grimace Purple", Color(hex: "#894fa3")),
-    ("Ocean Blue", Color(hex: "#007aff")),
-    ("Mint Fresh", Color(hex: "#00c6bf")),
-    ("Lime Zest", Color(hex: "#7fd800")),
-    ("Sunset Coral", Color(hex: "#ff5966")),
-    ("Hot Pink", Color(hex: "#ff2da5")),
-    ("Tangerine", Color(hex: "#ff9300")),
-    ("Lavender Dream", Color(hex: "#ba8eff")),
-    ("San Diego Merlot", Color(hex: "#7a1e3a")),
-    ("Forest Green", Color(hex: "#0b6e4f")),
-    ("Miami Vice", Color(hex: "#ff6ec7")),
-    ("Electric Lemonade", Color(hex: "#ccff00")),
-    ("Neon Grape", Color(hex: "#b026ff")),
-    ("Slate Stone", Color(hex: "#708090")),
-    ("Warm Sandstone", Color(hex: "#c4a77d")),
+    ("Terminal Green", Color(hex: "#00FF41")),
+    ("Amber Alert", Color(hex: "#FFB300")),
+    ("Bloodwork", Color(hex: "#E63946")),
+    ("Ice Blue", Color(hex: "#00B4D8")),
+    ("Tungsten", Color(hex: "#A8A8A8")),
+    ("Ultraviolet", Color(hex: "#7B2FBE")),
+    ("Rust", Color(hex: "#C1440E")),
+    ("Phosphor", Color(hex: "#CCFF00")),
+    ("Cold Steel", Color(hex: "#4A90A4")),
+    ("Signal White", Color(hex: "#F0F0EB")),
   ]
 
-  private static let defaultColorName = "Grimace Purple"
+  private static let defaultColorName = "Terminal Green"
 
   @AppStorage(
     "locktThemeColorName", store: UserDefaults(suiteName: "group.com.ryangrant.lockt"))

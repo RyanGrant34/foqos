@@ -42,6 +42,9 @@ struct HomeView: View {
   // Emergency View
   @State private var showEmergencyView = false
 
+  // Intent sheet
+  @State private var profilePendingIntent: BlockedProfiles? = nil
+
   // Navigate to profile
   @State private var navigateToProfileId: UUID? = nil
 
@@ -260,6 +263,22 @@ struct HomeView: View {
       EmergencyView()
         .presentationDetents([.height(350)])
     }
+    .sheet(item: $profilePendingIntent) { profile in
+      IntentView(
+        profile: profile,
+        onConfirm: { intent in
+          profilePendingIntent = nil
+          strategyManager.pendingSessionIntent = intent.isEmpty ? nil : intent
+          strategyManager.toggleBlocking(context: context, activeProfile: profile)
+          ratingManager.incrementLaunchCount()
+        },
+        onDismiss: {
+          profilePendingIntent = nil
+        }
+      )
+      .presentationDetents([.height(440)])
+      .presentationDragIndicator(.hidden)
+    }
     .alert(alertTitle, isPresented: $showingAlert) {
       Button("OK", role: .cancel) { dismissAlert() }
     } message: {
@@ -273,6 +292,11 @@ struct HomeView: View {
   }
 
   private func strategyButtonPress(_ profile: BlockedProfiles) {
+    // If starting (not stopping), show intent sheet first
+    if !strategyManager.isBlocking {
+      profilePendingIntent = profile
+      return
+    }
     strategyManager
       .toggleBlocking(context: context, activeProfile: profile)
 
